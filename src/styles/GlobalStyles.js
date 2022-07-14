@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import themeList from '../data/themeList';
+// import {themes} from '../components/Theme/ThemeContext';
 
 // Typography
 import '@fontsource/poppins';
@@ -24,38 +24,44 @@ const GlobalStyles = createGlobalStyle`
 
 /* others */
     --header-height: 50px;
-    }
+}
 
 html{
     font-size: 10px;
+    scroll-behavior: smooth;
 }
+
 body{
-    background-color: ${({ theme: { theme } }) =>
-    theme === themeList.light ? 'var(--lightBlue_1)' : 'var(--darkBlue_3)'};
+   background-color: var(--lightBlue_1);
     font-family: 'Poppins', sans-serif;
 }
+
 *, *:before, *:after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 a{
     text-decoration: none;
     cursor: pointer;
 }
+
 ul, li{
     list-style: none;
 }
+
 .container{
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
 }
+
 img, svg{
     width: 100%;
     height: 100%;
 }
-`
+`;
 
 
 

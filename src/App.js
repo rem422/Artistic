@@ -1,10 +1,12 @@
-import './App.css';
+import LandingPage from './Pages/LandingPage';
 import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
     <>
-      <GlobalStyles> </GlobalStyles>
+      <GlobalStyles />
+      <LandingPage/>
+
     </>
   );
 }
