@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import ParagraphText from '../components/Paragraph Text/ParagraphText'
+import ParagraphText from '../ParagraphText/ParagraphText'
 
 const TeamMemberItem = ({img, name, title}) => {
   return (

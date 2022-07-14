@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import ParagraphText from '../components/Paragraph Text/ParagraphText'
-import SectionTitle from '../components/titles/SectionTitle'
+import ParagraphText from '../ParagraphText/ParagraphText'
+import SectionTitle from '../titles/SectionTitle'
 import TeamMemberItem from './TeamMemberItem'
 
 // Team Images
-import teamMember1 from '../assets/images/team1.png'
-import teamMember2 from '../assets/images/team2.png'
-import teamMember3 from '../assets/images/team3.png'
+import teamMember1 from '../../assets/images/team1.png'
+import teamMember2 from '../../assets/images/team2.png'
+import teamMember3 from '../../assets/images/team3.png'
 
 const TeamSection = () => {
   return (

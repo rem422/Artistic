@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import HeroTitle from './titles/HeroTitle'
-import ParagraphText from './Paragraph Text/ParagraphText'
+import ParagraphText from './ParagraphText/ParagraphText'
 import PrimaryButton from './Buttons/PrimaryButton'
 import HeroImg from '../assets/images/hero.png'
 import { Link } from 'react-scroll'

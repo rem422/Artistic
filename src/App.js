@@ -1,5 +1,5 @@
-import LandingPage from './Pages/LandingPage';
-import GlobalStyles from './styles/GlobalStyles';
+import LandingPage from './components/Pages/LandingPage';
+import GlobalStyles from './components/styles/GlobalStyles';
 
 function App() {
   return (

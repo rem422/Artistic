@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import SectionTitle from './titles/SectionTitle'
-import ParagraphText from './Paragraph Text/ParagraphText'
+import ParagraphText from './ParagraphText/ParagraphText'
 
 const NewsLetterSection = () => {
   return (

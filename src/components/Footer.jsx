@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll';
 import styled from 'styled-components'
 import Logo from './Logo';
-import ParagraphText from './Paragraph Text/ParagraphText';
+import ParagraphText from './ParagraphText/ParagraphText';
 
 const Footer = () => {
 

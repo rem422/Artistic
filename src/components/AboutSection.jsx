@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import AboutImg from '../assets/images/about.png'
-import ParagraphText from './Paragraph Text/ParagraphText'
+import ParagraphText from './ParagraphText/ParagraphText'
 import SectionTitle from './titles/SectionTitle'
 import PrimaryButton from './Buttons/PrimaryButton'
 import { Link } from 'react-scroll'

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import ParagraghText from '../Paragraph Text/ParagraphText'
+import ParagraghText from '../ParagraphText/ParagraphText'
 
 const ServiceItem = ({icon, title, desc}) => {
   return (
